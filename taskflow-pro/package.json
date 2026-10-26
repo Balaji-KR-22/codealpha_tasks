@@ -1,0 +1,10 @@
+{
+  "name": "taskflow-pro",
+  "version": "1.0.0",
+  "description": "Collaborative project management platform with boards, tasks, comments, notifications and real-time updates.",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "nodemon server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"bcryptjs": "^2.4.3", "cors": "^2.8.5", "dotenv": "^16.4.5", "express": "^4.21.2", "jsonwebtoken": "^9.0.2", "mysql2": "^3.11.5", "socket.io": "^4.8.1"},
+  "devDependencies": {"nodemon": "^3.1.7"}
+}
